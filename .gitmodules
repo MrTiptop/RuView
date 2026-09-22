@@ -21,6 +21,7 @@
 [submodule "vendor/rufield"]
 	path = vendor/rufield
 	url = https://github.com/ruvnet/rufield
+	branch = main
 [submodule "v2/crates/ruview-swarm"]
 	path = v2/crates/ruview-swarm
 	url = https://github.com/ruvnet/ruv-drone.git

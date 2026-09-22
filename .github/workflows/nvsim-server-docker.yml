@@ -25,7 +25,7 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@94443046755490772719277d337a77e8a385f001 # v5.1.0
         with:
           submodules: recursive
 

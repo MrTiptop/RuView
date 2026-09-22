@@ -68,7 +68,7 @@ jobs:
     name: Wheel + parity tests (features=sota)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@94443046755490772719277d337a77e8a385f001 # v5.1.0
         with:
           # The python/ crate path-deps v2/crates/* and (transitively via
           # train) the vendored ruvector submodule — recursive checkout keeps
@@ -133,7 +133,7 @@ jobs:
     name: Default wheel <= 5 MiB (ADR-117 §5.4)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@94443046755490772719277d337a77e8a385f001 # v5.1.0
         with:
           submodules: recursive
 
