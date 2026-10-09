@@ -10,4 +10,5 @@ dependencies:
   espressif/esp_lcd_touch: "^1.0"
 
   ## Onboard WS2812 LED Disabling
-  espressif/led_strip: "^3.0.0"
+  ## 3.1.x calls rmt_tx_switch_gpio, which is absent from ESP-IDF v5.4 (CI image).
+  espressif/led_strip: "~3.0.3"
